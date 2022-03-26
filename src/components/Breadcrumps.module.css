@@ -1,0 +1,18 @@
+.Breadcrumbs {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.Breadcrumbs ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.BreadcrumbItem {
+    display: flex;
+    gap: 12px;
+}
+
+.BreadcrumbItem:last-child .seperator {
+    display: none;
+}
